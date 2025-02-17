@@ -1,43 +1,51 @@
-# JCDS2804-ProjectCapstoneModul1
-Capstone Project Modul1 - Yellow Page Program
+readme_content = """
+# Yellow Pages - Daftar Kontak Perusahaan
 
 Yellow Pages adalah aplikasi berbasis Python untuk mengelola daftar kontak perusahaan. Program ini dirancang untuk membantu pengguna, seperti manajer kantor atau tim administrasi, dalam mengorganisir data perusahaan secara efisien.
 
-Fitur Utama
+## Fitur Utama
 
-Lihat Kontak
-Tampilkan daftar kontak perusahaan dengan opsi sorting berdasarkan:
-Kontak terbaru
-Kontak terlama
-Berdasarkan industri
-Berdasarkan daerah
+- **Lihat Kontak**  
+  Tampilkan daftar kontak perusahaan dengan opsi sorting berdasarkan:
+  - Kontak terbaru
+  - Kontak terlama
+  - Berdasarkan industri
+  - Berdasarkan daerah  
+  Serta opsi filter kombinasi berdasarkan daerah dan industri.
 
-Serta opsi filter kombinasi berdasarkan daerah dan industri.
-Tambah Kontak
-Menambahkan kontak baru dengan validasi sederhana untuk format email dan panjang nomor telepon (maksimal 13 digit).
-Program mendukung penyimpanan kontak dengan nama yang sama jika data lainnya berbeda.
+- **Tambah Kontak**  
+  Menambahkan kontak baru dengan validasi sederhana untuk format email dan panjang nomor telepon (maksimal 13 digit).  
+  Program mendukung penyimpanan kontak dengan nama yang sama jika data lainnya berbeda.
 
-Cari & Kelola Kontak
-Cari kontak berdasarkan kata kunci (nama depan atau nama belakang) dan, jika ditemukan, pengguna dapat memilih untuk:
+- **Cari & Kelola Kontak**  
+  Cari kontak berdasarkan kata kunci (nama depan atau nama belakang) dan, jika ditemukan, pengguna dapat memilih untuk:
+  - Mengedit detail kontak, atau
+  - Menghapus kontak (yang akan dipindahkan ke daftar kontak dihapus).
 
-Mengedit detail kontak, atau
-Menghapus kontak (yang akan dipindahkan ke daftar kontak dihapus).
-Daftar Kontak Dihapus
-Menampilkan kontak yang telah dihapus dengan opsi untuk:
+- **Daftar Kontak Dihapus**  
+  Menampilkan kontak yang telah dihapus dengan opsi untuk:
+  - Memulihkan kontak ke daftar utama, atau
+  - Menghapus kontak secara permanen.
 
-Memulihkan kontak ke daftar utama, atau
-Menghapus kontak secara permanen.
-Keluar
-Mengakhiri program dengan menampilkan pesan terima kasih.
+- **Keluar**  
+  Mengakhiri program dengan menampilkan pesan terima kasih.
 
-Teknologi
-Python
-Bahasa pemrograman utama untuk pengembangan aplikasi ini.
+## Teknologi
 
-Colorama
-Digunakan untuk memberikan pewarnaan pada output terminal agar pesan error atau konfirmasi terlihat lebih jelas.
+- **Python**  
+  Bahasa pemrograman utama untuk pengembangan aplikasi ini.
 
-Tabulate
-Digunakan untuk memformat tampilan data dalam bentuk tabel agar lebih rapi dan mudah dibaca.
+- **Colorama**  
+  Digunakan untuk memberikan pewarnaan pada output terminal agar pesan error atau konfirmasi terlihat lebih jelas.
+
+- **Tabulate**  
+  Digunakan untuk memformat tampilan data dalam bentuk tabel agar lebih rapi dan mudah dibaca.
+
+---
 
 Aplikasi ini cocok untuk pengguna yang membutuhkan solusi praktis dalam mengelola data kontak perusahaan secara terorganisir dan dengan tampilan yang interaktif di terminal.
+"""
+
+with open("README.md", "w", encoding="utf-8") as file:
+    file.write(readme_content)
+
