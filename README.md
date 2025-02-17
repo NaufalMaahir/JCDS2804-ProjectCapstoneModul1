@@ -1,4 +1,3 @@
-readme_content = """
 # Yellow Pages - Daftar Kontak Perusahaan
 
 Yellow Pages adalah aplikasi berbasis Python untuk mengelola daftar kontak perusahaan. Program ini dirancang untuk membantu pengguna, seperti manajer kantor atau tim administrasi, dalam mengorganisir data perusahaan secara efisien.
@@ -44,7 +43,6 @@ Yellow Pages adalah aplikasi berbasis Python untuk mengelola daftar kontak perus
 ---
 
 Aplikasi ini cocok untuk pengguna yang membutuhkan solusi praktis dalam mengelola data kontak perusahaan secara terorganisir dan dengan tampilan yang interaktif di terminal.
-"""
 
 ![Uploading 016_Capstone Project Yellow Page_Naufal.png…]()
 
