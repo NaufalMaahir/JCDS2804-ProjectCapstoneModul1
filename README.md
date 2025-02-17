@@ -7,10 +7,10 @@ Fitur Utama
 
 Lihat Kontak
 Tampilkan daftar kontak perusahaan dengan opsi sorting berdasarkan:
-/nKontak terbaru
-/nKontak terlama
-/nBerdasarkan industri
-/nBerdasarkan daerah
+Kontak terbaru
+Kontak terlama
+Berdasarkan industri
+Berdasarkan daerah
 
 Serta opsi filter kombinasi berdasarkan daerah dan industri.
 Tambah Kontak
