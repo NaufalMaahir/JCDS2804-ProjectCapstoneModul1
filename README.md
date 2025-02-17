@@ -4,13 +4,14 @@ Capstone Project Modul1 - Yellow Page Program
 Yellow Pages adalah aplikasi berbasis Python untuk mengelola daftar kontak perusahaan. Program ini dirancang untuk membantu pengguna, seperti manajer kantor atau tim administrasi, dalam mengorganisir data perusahaan secara efisien.
 
 Fitur Utama
+
 Lihat Kontak
 Tampilkan daftar kontak perusahaan dengan opsi sorting berdasarkan:
+/nKontak terbaru
+/nKontak terlama
+/nBerdasarkan industri
+/nBerdasarkan daerah
 
-Kontak terbaru
-Kontak terlama
-Berdasarkan industri
-Berdasarkan daerah
 Serta opsi filter kombinasi berdasarkan daerah dan industri.
 Tambah Kontak
 Menambahkan kontak baru dengan validasi sederhana untuk format email dan panjang nomor telepon (maksimal 13 digit).
