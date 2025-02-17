@@ -46,6 +46,6 @@ Yellow Pages adalah aplikasi berbasis Python untuk mengelola daftar kontak perus
 Aplikasi ini cocok untuk pengguna yang membutuhkan solusi praktis dalam mengelola data kontak perusahaan secara terorganisir dan dengan tampilan yang interaktif di terminal.
 """
 
-with open("README.md", "w", encoding="utf-8") as file:
-    file.write(readme_content)
+![Uploading 016_Capstone Project Yellow Page_Naufal.png…]()
+
 
